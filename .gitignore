@@ -1,0 +1,9 @@
+# ignore all the files wihtout an extention
+## tells git to ignore everything.
+*
+## then unignores anything that is a directory. This is crucial.
+!*/
+## unignores all files with an extension.
+!*.*
+
+a.out
