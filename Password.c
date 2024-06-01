@@ -3,10 +3,8 @@
 
 int main(void){
 
-    char password[20] = {'x'};
-    char characater = 'x';
-    int intArray[10] = {1};
-    int integer = 1;
+    char password[20];
+   
     printf(" enter your password: ");
     scanf("%19s", password);
 
